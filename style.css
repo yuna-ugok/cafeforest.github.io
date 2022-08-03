@@ -1,0 +1,295 @@
+header {
+  color: black;
+  /* font-family: Book Antiqua; */
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  line-height: 2;
+}
+
+#ca {
+  position: relative;
+  top: -200px;
+  margin-bottom: -130px;
+}
+
+.li {
+  position: relative;
+  top: -60px;
+}
+
+#square1 {
+  width: 1500px;
+  height: 20px;
+  line-height: 100px;
+  background-color: rgba(85, 34, 4, 0.774);
+}
+#square2 {
+  width: 1500px;
+  height: 20px;
+  line-height: 100px;
+  background-color: rgba(85, 34, 4, 0.774);
+  position: relative;
+  top: -12px;
+  margin-bottom: -12px;
+}
+#square3 {
+  width: 1380px;
+  height: 800px;
+  background-color: rgba(221, 232, 241, 0.623);
+  position: relative;
+  top: -840px;
+  left: 50px;
+  margin-bottom: -1910px;
+}
+#square4 {
+  width: 600px;
+  height: 400px;
+  background-color: rgba(236, 238, 240, 0.925);
+  position: relative;
+  top: 450px;
+  left: 450px;
+}
+
+#mark {
+  position: relative;
+  top: -50px;
+}
+
+body {
+  font-family: Book Antiqua;
+}
+
+body:not(h3) {
+  font-family: serif;
+}
+
+#TOP {
+  background-color: rgba(236, 234, 113, 0.336);
+  text-align: center;
+}
+
+/*#to {
+  position: relative;
+  top: 60px;
+}
+*/
+
+#insta {
+  position: relative;
+  top: -340px;
+  left: 580px;
+}
+
+#border-radius1 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgba(204, 184, 0, 0.63);
+  border-radius: 100vh;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 1000;
+  position: relative;
+  top: 10px;
+  left: 685px;
+}
+
+#MENU {
+  background-color: rgba(245, 219, 235, 0.589);
+  text-align: center;
+}
+
+#border-radius2 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgba(204, 0, 160, 0.363);
+  border-radius: 100vh;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 1000;
+  position: relative;
+  top: 10px;
+  left: 685px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.items > div {
+  margin: 0 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*
+#i2 {
+  position: relative;
+  top: 10px;
+  left: -60px;
+}
+
+#i3 {
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+
+#o {
+  position: relative;
+  left: -140px;
+}
+
+#n0 {
+  position: relative;
+  top: -40px;
+  left: 200px;
+}
+
+#t {
+  position: relative;
+  top: -40px;
+  left: 140px;
+}
+
+#c {
+  position: relative;
+  left: -470px;
+}
+
+#n1 {
+  position: relative;
+  top: -40px;
+  left: -90px;
+}
+
+#i {
+  position: relative;
+  top: -80px;
+  left: 90px;
+}
+
+#n2 {
+  position: relative;
+  top: -120px;
+  left: 480px;
+}
+*/
+
+#ABOUT {
+  background-color: rgba(160, 238, 150, 0.267);
+  text-align: center;
+}
+
+#border-radius3 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgba(7, 204, 0, 0.712);
+  border-radius: 100vh;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 1000;
+  position: relative;
+  top: 10px;
+  left: 685px;
+}
+
+table {
+  border-collapse: collapse;
+  position: relative;
+  top: 10px;
+  left: 530px;
+}
+
+#left {
+  text-align: left;
+}
+
+table td {
+  border: solid 2px rgba(33, 155, 8, 0.87);
+}
+
+#CONTACT {
+  background-color: rgba(223, 150, 238, 0.226);
+  text-align: center;
+}
+
+#border-radius4 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgba(197, 0, 204, 0.418);
+  border-radius: 100vh;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 1000;
+  position: relative;
+  top: 10px;
+  left: 685px;
+}
+
+/* #table1 {
+  border-collapse: collapse;
+  position: relative;
+  top: 10px;
+  left: 590px;
+} */
+
+#table1 td {
+  border: solid 2px rgba(138, 8, 155, 0.527);
+}
+
+#table2 {
+  display: flex;
+  justify-content: center;
+}
+
+button[type] {
+  background-color: rgba(133, 53, 207, 0.651);
+  color: aliceblue;
+  font-family: serif;
+}
+
+#square2 {
+  width: 1500px;
+  height: 20px;
+  line-height: 100px;
+  background-color: rgba(85, 34, 4, 0.774);
+}
+
+#footer {
+  position: relative;
+  top: 0px;
+}
+
+a {
+  width: 100px;
+  text-align: center;
+
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+header > a:link {
+  color: black;
+}
+
+header > a:visited {
+  color: black;
+}
+
+header > a:hover {
+  font-size: 120%;
+  color: rgb(131, 86, 4);
+  background-color: palegoldenrod;
+}
